@@ -1,0 +1,49 @@
+{
+    "name": "tdd-vs-bdd",
+    "description": "Repository for my post about TDD and BDD",
+    "version": "0.1.0",
+    "homepage": "https://github.com/jdavis/tdd-vs-bdd",
+
+    "author": {
+        "name": "Josh Davis",
+        "email": "josh@joshldavis.com",
+        "url": "http://joshldavis.com"
+    },
+
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/jdavis/tdd-vs-bdd.git"
+    },
+
+    "bugs": {
+        "url": "https://github.com/jdavis/tdd-vs-bdd/issues"
+    },
+
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/jdavis/tdd-vs-bdd/blob/master/LICENSE-MIT"
+    }],
+
+    "main": "index.js",
+
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+
+    "scripts": {
+        "test": "grunt"
+    },
+
+    "dependencies": {},
+
+    "devDependencies": {
+        "mocha": "~1.10",
+        "should": "*",
+        "grunt": "~0.4.1",
+        "grunt-cafe-mocha": "~0.1.4"
+    },
+
+    "peerDependencies": {
+        "grunt": "~0.4.1"
+    }
+}
