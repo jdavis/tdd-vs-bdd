@@ -1,7 +1,6 @@
 var assert = require('assert'),
     factorial = require('../index');
 
-
 suite('Test', function (){
     setup(function (){
         // Create any objects that we might need
